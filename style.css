@@ -1,0 +1,84 @@
+body
+{
+    background-color:rgb(15, 18, 70);
+    margin: 0;
+    color:rgb(255, 255, 255);
+}
+
+div{
+    display: block;
+    margin: auto;
+    content: normal;
+}
+
+.Grid{
+    display: block;
+    content: normal;
+}
+
+.InfoRow{
+    display: inline-flex;
+    margin: auto;
+}
+
+.Photo{
+    margin-right: 20px;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.Photo2{
+    width: 200px;
+    height: 200px;
+}
+
+.Col-2{
+    display: inline-block;
+    margin: auto;
+}
+
+.AlbumsRow{
+    display: flex;
+}
+
+h1{
+    color: black;
+    text-align:center;
+    font: bolder;
+    font-style: italic;
+}
+
+h2{
+    font: bold;
+    color: rgb(119, 0, 0);
+}
+
+h3{
+    color: black;
+}
+
+h4{
+    color: black;
+}
+
+.album{
+    color: black;
+    text-align: center;
+}
+
+
+fieldset{
+    border-color: rgb(119, 0, 0);
+}
+
+form{
+    display: block;
+    flex-direction: column;
+}
+
+legend{
+    font-style: italic;
+    font:bold;
+    color: rgb(119, 0, 0);
+}
